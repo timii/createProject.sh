@@ -2,6 +2,8 @@
 
 This is a small shell script to help you start a new project. It creates a new folder in your projects directory, creates a new repository on github and initializes it with the first commit and a README.
 
+The script uses the GitHub API with your personal access token to authenticate the user and create the remote repository.
+
 ## Installation
 
 Place the script in a directory of your choice (preferably in "~" or somewhere easy to find)
